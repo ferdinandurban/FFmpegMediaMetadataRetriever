@@ -1,18 +1,9 @@
 FFmpegMediaMetadataRetriever
 ============================
 
-View the project page <a href=http://wseemann.github.io/FFmpegMediaMetadataRetriever/>here</a>.
+<!--View the project page <a href=http://wseemann.github.io/FFmpegMediaMetadataRetriever/>here</a>.-->
 
-Donate
-------------
 
-Donations can be made via PayPal or Flattr:
-
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2BDTFVEW9LFZY" alt="PayPal - The safer, easier way to pay online!">
-  <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif">
-</a>
-
-<a href="http://flattr.com/thing/2667714/wseemannFFmpegMediaMetadataRetriever-on-GitHub" target="_blank"><img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
 
 Overview
 --------
@@ -39,21 +30,21 @@ Using FMMR in your application (Android Studio)
 Add the following maven dependency to your project's `build.gradle` file:
 
     dependencies {
-        compile 'com.github.wseemann:FFmpegMediaMetadataRetriever:1.0.11'
+        compile 'com.github.ferdinandurban:FFmpegMediaMetadataRetriever:1.0.11'
     }
 
 or, if your application supports individual architectures extract the appropriate AAR file into you projects "libs" folder:
 
-[Prebuilt AARs] (https://github.com/wseemann/FFmpegMediaMetadataRetriever/releases/download/v1.0.11/prebuilt-aars.zip)
+[Prebuilt AARs] (https://github.com/ferdinandurban/FFmpegMediaMetadataRetriever/releases/download/v1.0.11/prebuilt-aars.zip)
 
 (with HTTPS support)
 
-[Prebuilt AARs with HTTPS] (https://github.com/wseemann/FFmpegMediaMetadataRetriever/releases/download/v1.0.9/prebuilt-aars-with-https.zip)
+[Prebuilt AARs with HTTPS] (https://github.com/ferdinandurban/FFmpegMediaMetadataRetriever/releases/download/v1.0.9/prebuilt-aars-with-https.zip)
 
 Demo Application
 ------------
 
-A sample application that makes use of FFmpegMediaMetadataRetriever can be downloaded [here] (https://github.com/wseemann/FFmpegMediaMetadataRetriever/blob/master/FMMRDemo.apk?raw=true). Note: The sample application is compiled with support for ALL available formats. This results in a larger library and APK. FFmpeg can be recompiled with a subset of codecs enabled for those wanting a smaller size.
+A sample application that makes use of FFmpegMediaMetadataRetriever can be downloaded [here] (https://github.com/ferdinandurban/FFmpegMediaMetadataRetriever/blob/master/FMMRDemo.apk?raw=true). Note: The sample application is compiled with support for ALL available formats. This results in a larger library and APK. FFmpeg can be recompiled with a subset of codecs enabled for those wanting a smaller size.
 
 Installation
 ------------
@@ -61,7 +52,7 @@ Installation
 FFmpegMediaMetadataRetriever relies on FFmpeg and native code. The build process
 is complex and may be confusing for those unfamiliar the Android NDK. For this
 reason I've precompiled AARs created by the build process and checked them
-in [here] (https://github.com/wseemann/FFmpegMediaMetadataRetriever/releases/download/v1.0.11/prebuilt-aars.zip).
+in [here] (https://github.com/ferdinandurban/FFmpegMediaMetadataRetriever/releases/download/v1.0.11/prebuilt-aars.zip).
 The modules are also included with the library. If you don't want to build the modules
 you can simple unzip the prebuilt ones and copy them to your projects "libs" folder. (Note:
 copy them to YOUR projects "libs" folder, NOT the "libs" folder located in
@@ -73,7 +64,7 @@ Download and install the [Android SDK](http://developer.android.com/sdk/index.ht
 Download the [Android NDK](http://developer.android.com/tools/sdk/ndk/index.html).
 Clone/Download/Fork the repo through GitHub or via (read-only)
 
-    git clone https://github.com/wseemann/FFmpegMediaMetadataRetriever.git
+    git clone https://github.com/ferdinandurban/FFmpegMediaMetadataRetriever.git
 
 ### Ant
 
@@ -92,12 +83,12 @@ Open the newly created local.properties file and add the following lines:
 
 where <path to NDK> is the path to your Android NDK, for example:
 
-    ndk.dir=/home/wseemann/Android/android-ndk-r8e
+    ndk.dir=/home/ferdinandurban/Android/android-ndk-r8e
 
 and <path to target libs folder> is the path to the "libs" folder in the project that will use the
 library, for example:
 
-    libs.dir=/home/wseemann/Android/MyAndroidDemo/libs
+    libs.dir=/home/ferdinandurban/Android/MyAndroidDemo/libs
 
 **Note:** If you wish to enable https support (for use with API 8+ only) navigate to FFmpegMediaMetadataRetriever/fmmr-library/ and execute
 
@@ -144,7 +135,7 @@ Sample code:
 
 FFmpeg
 -----------
-This software uses code of <a href=http://ffmpeg.org>FFmpeg</a> licensed under the <a href=http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html>LGPLv2.1</a> and its source can be downloaded <a href=https://github.com/wseemann/FFmpegMediaMetadataRetriever/blob/master/fmmr-library/ffmpeg-2.1-android-2013-11-13.tar.gz>here</a>.
+This software uses code of <a href=http://ffmpeg.org>FFmpeg</a> licensed under the <a href=http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html>LGPLv2.1</a> and its source can be downloaded <a href=https://github.com/ferdinandurban/FFmpegMediaMetadataRetriever/blob/master/fmmr-library/ffmpeg-2.1-android-2013-11-13.tar.gz>here</a>.
 
 License
 ------------
